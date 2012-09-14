@@ -360,6 +360,7 @@
 				1A8B90E11602F697006BD82E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
