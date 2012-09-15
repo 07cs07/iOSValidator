@@ -26,12 +26,9 @@
 #import "TooltipView.h"
 #import "TooltipViewPrivate.h"
 
-
 static const CGFloat kMargin = 10.0;
 
-
 @implementation TooltipView
-
 
 @synthesize text = _text;
 @synthesize rule;
@@ -71,7 +68,6 @@ static const CGFloat kMargin = 10.0;
     [self addSubview:_textLabel];
 }
 
-
 #pragma mark - Update user interface
 
 /**
@@ -98,7 +94,6 @@ static const CGFloat kMargin = 10.0;
     self.frame = CGRectMake(self.frame.origin.x, self.frame.origin.y, self.frame.size.width, size.height + 14.0);
 }
 
-
 #pragma mark - Text
 
 /**
@@ -110,7 +105,6 @@ static const CGFloat kMargin = 10.0;
     
     [self _updateUserInterface];
 }
-
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
 

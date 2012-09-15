@@ -9,6 +9,7 @@
 #import "ValidatorTestAppViewController.h"
 #import "InvalidTooltipView.h"
 #import "ValidTooltipView.h"
+#import "QuartzCore/QuartzCore.h"
 
 @implementation ValidatorTestAppViewController
 @synthesize textField1;
@@ -33,9 +34,7 @@
     {
         keyboardToolbar = [[UIToolbar alloc] initWithFrame:CGRectMake(0, 0,self.view.bounds.size.width, 44)]; 
         
-        
         extraSpace = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:(UIBarButtonSystemItemFlexibleSpace) target:nil action:nil];
-        
         
         done = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:(UIBarButtonSystemItemDone) target:self action:@selector(resignKeyboard)];
         
@@ -129,7 +128,7 @@
     }
     
     Validator *validator = [[Validator alloc] init];
-    validator.delegate = self;
+    validator.delegate   = self;
     
     [validator putRule:[Rules checkRange:NSMakeRange(2, 5) withFailureString:@"Should be in range 2 to 5" forTextField:textField1]];
     
@@ -146,31 +145,37 @@
 
 - (void) preValidation
 {
-
+    for (UITextField *textField in self.view.subviews) {
+        textField.layer.borderWidth = 0;
+    }
+    
     NSLog(@"Called before the validation begins");
 }
 
 - (void)onSuccess
 {
     
-    if (nil != _tooltipView)
+    if (_tooltipView != nil)
     {
         [_tooltipView removeFromSuperview];
-        _tooltipView = nil;
+        _tooltipView  = nil;
     }
     [[[UIAlertView alloc] initWithTitle:@"Alert" message:@"Success" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil] show];
 }
 
 - (void)onFailure:(Rule *)failedRule
 {
+    failedRule.textField.layer.borderColor   = [[UIColor redColor] CGColor];
+    failedRule.textField.layer.cornerRadius  = 5;    
+    failedRule.textField.layer.borderWidth   = 2;
     
-    CGPoint point = [failedRule.textField convertPoint:CGPointMake(0.0, failedRule.textField.frame.size.height - 4.0) toView:self.view];
+    CGPoint point           = [failedRule.textField convertPoint:CGPointMake(0.0, failedRule.textField.frame.size.height - 4.0) toView:self.view];
     CGRect tooltipViewFrame = CGRectMake(6.0, point.y, 309.0, _tooltipView.frame.size.height);
     
     _tooltipView       = [[InvalidTooltipView alloc] init];
     _tooltipView.frame = tooltipViewFrame;
-    _tooltipView.text = [NSString stringWithFormat:@"%@",failedRule.failureMessage];
-    _tooltipView.rule = failedRule;
+    _tooltipView.text  = [NSString stringWithFormat:@"%@",failedRule.failureMessage];
+    _tooltipView.rule  = failedRule;
     [self.view addSubview:_tooltipView];
 }
 

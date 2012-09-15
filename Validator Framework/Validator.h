@@ -15,7 +15,6 @@
  * @version 0.1
  */
 
-
 #import <Foundation/Foundation.h>
 #import "Rule.h"
 #import "Rules.h"

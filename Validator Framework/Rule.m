@@ -22,4 +22,5 @@
 @synthesize failureMessage;
 @synthesize textField;
 @synthesize isValid;
+
 @end

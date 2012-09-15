@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A87A62816043A3400B6B913 /* Rule.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A87A62116043A3400B6B913 /* Rule.m */; };
-		1A87A62916043A3400B6B913 /* Rules.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A87A62316043A3400B6B913 /* Rules.m */; };
-		1A87A62A16043A3400B6B913 /* Validator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A87A62516043A3400B6B913 /* Validator.m */; };
-		1A87A62B16043A3400B6B913 /* ValidatorRules.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A87A62716043A3400B6B913 /* ValidatorRules.m */; };
-		1A87A63016043A4800B6B913 /* image_tooltip_invalid.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A87A62C16043A4800B6B913 /* image_tooltip_invalid.png */; };
-		1A87A63116043A4800B6B913 /* image_tooltip_invalid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A87A62D16043A4800B6B913 /* image_tooltip_invalid@2x.png */; };
-		1A87A63216043A4800B6B913 /* image_tooltip_valid.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A87A62E16043A4800B6B913 /* image_tooltip_valid.png */; };
-		1A87A63316043A4800B6B913 /* image_tooltip_valid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A87A62F16043A4800B6B913 /* image_tooltip_valid@2x.png */; };
-		1A87A63B16043A5300B6B913 /* InvalidTooltipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A87A63516043A5300B6B913 /* InvalidTooltipView.m */; };
-		1A87A63C16043A5300B6B913 /* TooltipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A87A63716043A5300B6B913 /* TooltipView.m */; };
-		1A87A63D16043A5300B6B913 /* ValidTooltipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A87A63A16043A5300B6B913 /* ValidTooltipView.m */; };
+		1A39F7CC1604A49F000A9B8A /* Rule.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A39F7C51604A49F000A9B8A /* Rule.m */; };
+		1A39F7CD1604A49F000A9B8A /* Rules.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A39F7C71604A49F000A9B8A /* Rules.m */; };
+		1A39F7CE1604A49F000A9B8A /* Validator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A39F7C91604A49F000A9B8A /* Validator.m */; };
+		1A39F7CF1604A49F000A9B8A /* ValidatorRules.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A39F7CB1604A49F000A9B8A /* ValidatorRules.m */; };
+		1A39F7DD1604A4B0000A9B8A /* InvalidTooltipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A39F7D21604A4B0000A9B8A /* InvalidTooltipView.m */; };
+		1A39F7DE1604A4B0000A9B8A /* TooltipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A39F7D41604A4B0000A9B8A /* TooltipView.m */; };
+		1A39F7DF1604A4B0000A9B8A /* image_tooltip_invalid.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A39F7D61604A4B0000A9B8A /* image_tooltip_invalid.png */; };
+		1A39F7E01604A4B0000A9B8A /* image_tooltip_invalid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A39F7D71604A4B0000A9B8A /* image_tooltip_invalid@2x.png */; };
+		1A39F7E11604A4B0000A9B8A /* image_tooltip_valid.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A39F7D81604A4B0000A9B8A /* image_tooltip_valid.png */; };
+		1A39F7E21604A4B0000A9B8A /* image_tooltip_valid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A39F7D91604A4B0000A9B8A /* image_tooltip_valid@2x.png */; };
+		1A39F7E31604A4B0000A9B8A /* ValidTooltipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A39F7DC1604A4B0000A9B8A /* ValidTooltipView.m */; };
+		1A802A0D16046A200063D25B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A802A0C16046A200063D25B /* QuartzCore.framework */; };
 		1A8B90C61602F696006BD82E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8B90C51602F696006BD82E /* UIKit.framework */; };
 		1A8B90C81602F696006BD82E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8B90C71602F696006BD82E /* Foundation.framework */; };
 		1A8B90CA1602F696006BD82E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8B90C91602F696006BD82E /* CoreGraphics.framework */; };
@@ -29,25 +30,26 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1A87A62016043A3400B6B913 /* Rule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Rule.h; path = Validator/Rule.h; sourceTree = "<group>"; };
-		1A87A62116043A3400B6B913 /* Rule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Rule.m; path = Validator/Rule.m; sourceTree = "<group>"; };
-		1A87A62216043A3400B6B913 /* Rules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Rules.h; path = Validator/Rules.h; sourceTree = "<group>"; };
-		1A87A62316043A3400B6B913 /* Rules.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Rules.m; path = Validator/Rules.m; sourceTree = "<group>"; };
-		1A87A62416043A3400B6B913 /* Validator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Validator.h; path = Validator/Validator.h; sourceTree = "<group>"; };
-		1A87A62516043A3400B6B913 /* Validator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Validator.m; path = Validator/Validator.m; sourceTree = "<group>"; };
-		1A87A62616043A3400B6B913 /* ValidatorRules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ValidatorRules.h; path = Validator/ValidatorRules.h; sourceTree = "<group>"; };
-		1A87A62716043A3400B6B913 /* ValidatorRules.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ValidatorRules.m; path = Validator/ValidatorRules.m; sourceTree = "<group>"; };
-		1A87A62C16043A4800B6B913 /* image_tooltip_invalid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image_tooltip_invalid.png; path = ToolTipViewImages/image_tooltip_invalid.png; sourceTree = "<group>"; };
-		1A87A62D16043A4800B6B913 /* image_tooltip_invalid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "image_tooltip_invalid@2x.png"; path = "ToolTipViewImages/image_tooltip_invalid@2x.png"; sourceTree = "<group>"; };
-		1A87A62E16043A4800B6B913 /* image_tooltip_valid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image_tooltip_valid.png; path = ToolTipViewImages/image_tooltip_valid.png; sourceTree = "<group>"; };
-		1A87A62F16043A4800B6B913 /* image_tooltip_valid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "image_tooltip_valid@2x.png"; path = "ToolTipViewImages/image_tooltip_valid@2x.png"; sourceTree = "<group>"; };
-		1A87A63416043A5300B6B913 /* InvalidTooltipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InvalidTooltipView.h; path = ToolTipView/InvalidTooltipView.h; sourceTree = "<group>"; };
-		1A87A63516043A5300B6B913 /* InvalidTooltipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InvalidTooltipView.m; path = ToolTipView/InvalidTooltipView.m; sourceTree = "<group>"; };
-		1A87A63616043A5300B6B913 /* TooltipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TooltipView.h; path = ToolTipView/TooltipView.h; sourceTree = "<group>"; };
-		1A87A63716043A5300B6B913 /* TooltipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TooltipView.m; path = ToolTipView/TooltipView.m; sourceTree = "<group>"; };
-		1A87A63816043A5300B6B913 /* TooltipViewPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TooltipViewPrivate.h; path = ToolTipView/TooltipViewPrivate.h; sourceTree = "<group>"; };
-		1A87A63916043A5300B6B913 /* ValidTooltipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ValidTooltipView.h; path = ToolTipView/ValidTooltipView.h; sourceTree = "<group>"; };
-		1A87A63A16043A5300B6B913 /* ValidTooltipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ValidTooltipView.m; path = ToolTipView/ValidTooltipView.m; sourceTree = "<group>"; };
+		1A39F7C41604A49F000A9B8A /* Rule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Rule.h; path = "Validator Framework/Rule.h"; sourceTree = "<group>"; };
+		1A39F7C51604A49F000A9B8A /* Rule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Rule.m; path = "Validator Framework/Rule.m"; sourceTree = "<group>"; };
+		1A39F7C61604A49F000A9B8A /* Rules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Rules.h; path = "Validator Framework/Rules.h"; sourceTree = "<group>"; };
+		1A39F7C71604A49F000A9B8A /* Rules.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Rules.m; path = "Validator Framework/Rules.m"; sourceTree = "<group>"; };
+		1A39F7C81604A49F000A9B8A /* Validator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Validator.h; path = "Validator Framework/Validator.h"; sourceTree = "<group>"; };
+		1A39F7C91604A49F000A9B8A /* Validator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Validator.m; path = "Validator Framework/Validator.m"; sourceTree = "<group>"; };
+		1A39F7CA1604A49F000A9B8A /* ValidatorRules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ValidatorRules.h; path = "Validator Framework/ValidatorRules.h"; sourceTree = "<group>"; };
+		1A39F7CB1604A49F000A9B8A /* ValidatorRules.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ValidatorRules.m; path = "Validator Framework/ValidatorRules.m"; sourceTree = "<group>"; };
+		1A39F7D11604A4B0000A9B8A /* InvalidTooltipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InvalidTooltipView.h; path = "Validator Framework/ToolTipView/InvalidTooltipView.h"; sourceTree = "<group>"; };
+		1A39F7D21604A4B0000A9B8A /* InvalidTooltipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InvalidTooltipView.m; path = "Validator Framework/ToolTipView/InvalidTooltipView.m"; sourceTree = "<group>"; };
+		1A39F7D31604A4B0000A9B8A /* TooltipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TooltipView.h; path = "Validator Framework/ToolTipView/TooltipView.h"; sourceTree = "<group>"; };
+		1A39F7D41604A4B0000A9B8A /* TooltipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TooltipView.m; path = "Validator Framework/ToolTipView/TooltipView.m"; sourceTree = "<group>"; };
+		1A39F7D61604A4B0000A9B8A /* image_tooltip_invalid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image_tooltip_invalid.png; path = "Validator Framework/ToolTipView/ToolTipViewImages/image_tooltip_invalid.png"; sourceTree = "<group>"; };
+		1A39F7D71604A4B0000A9B8A /* image_tooltip_invalid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "image_tooltip_invalid@2x.png"; path = "Validator Framework/ToolTipView/ToolTipViewImages/image_tooltip_invalid@2x.png"; sourceTree = "<group>"; };
+		1A39F7D81604A4B0000A9B8A /* image_tooltip_valid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image_tooltip_valid.png; path = "Validator Framework/ToolTipView/ToolTipViewImages/image_tooltip_valid.png"; sourceTree = "<group>"; };
+		1A39F7D91604A4B0000A9B8A /* image_tooltip_valid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "image_tooltip_valid@2x.png"; path = "Validator Framework/ToolTipView/ToolTipViewImages/image_tooltip_valid@2x.png"; sourceTree = "<group>"; };
+		1A39F7DA1604A4B0000A9B8A /* TooltipViewPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TooltipViewPrivate.h; path = "Validator Framework/ToolTipView/TooltipViewPrivate.h"; sourceTree = "<group>"; };
+		1A39F7DB1604A4B0000A9B8A /* ValidTooltipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ValidTooltipView.h; path = "Validator Framework/ToolTipView/ValidTooltipView.h"; sourceTree = "<group>"; };
+		1A39F7DC1604A4B0000A9B8A /* ValidTooltipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ValidTooltipView.m; path = "Validator Framework/ToolTipView/ValidTooltipView.m"; sourceTree = "<group>"; };
+		1A802A0C16046A200063D25B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		1A8B90C11602F696006BD82E /* ValidatorTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ValidatorTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A8B90C51602F696006BD82E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1A8B90C71602F696006BD82E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -68,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A802A0D16046A200063D25B /* QuartzCore.framework in Frameworks */,
 				1A8B90C61602F696006BD82E /* UIKit.framework in Frameworks */,
 				1A8B90C81602F696006BD82E /* Foundation.framework in Frameworks */,
 				1A8B90CA1602F696006BD82E /* CoreGraphics.framework in Frameworks */,
@@ -98,6 +101,7 @@
 		1A8B90C41602F696006BD82E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1A802A0C16046A200063D25B /* QuartzCore.framework */,
 				1A8B90C51602F696006BD82E /* UIKit.framework */,
 				1A8B90C71602F696006BD82E /* Foundation.framework */,
 				1A8B90C91602F696006BD82E /* CoreGraphics.framework */,
@@ -132,10 +136,10 @@
 		1A8B91001602F733006BD82E /* ToolTipImages */ = {
 			isa = PBXGroup;
 			children = (
-				1A87A62C16043A4800B6B913 /* image_tooltip_invalid.png */,
-				1A87A62D16043A4800B6B913 /* image_tooltip_invalid@2x.png */,
-				1A87A62E16043A4800B6B913 /* image_tooltip_valid.png */,
-				1A87A62F16043A4800B6B913 /* image_tooltip_valid@2x.png */,
+				1A39F7D61604A4B0000A9B8A /* image_tooltip_invalid.png */,
+				1A39F7D71604A4B0000A9B8A /* image_tooltip_invalid@2x.png */,
+				1A39F7D81604A4B0000A9B8A /* image_tooltip_valid.png */,
+				1A39F7D91604A4B0000A9B8A /* image_tooltip_valid@2x.png */,
 			);
 			name = ToolTipImages;
 			sourceTree = "<group>";
@@ -144,13 +148,13 @@
 			isa = PBXGroup;
 			children = (
 				1A8B91001602F733006BD82E /* ToolTipImages */,
-				1A87A63416043A5300B6B913 /* InvalidTooltipView.h */,
-				1A87A63516043A5300B6B913 /* InvalidTooltipView.m */,
-				1A87A63616043A5300B6B913 /* TooltipView.h */,
-				1A87A63716043A5300B6B913 /* TooltipView.m */,
-				1A87A63816043A5300B6B913 /* TooltipViewPrivate.h */,
-				1A87A63916043A5300B6B913 /* ValidTooltipView.h */,
-				1A87A63A16043A5300B6B913 /* ValidTooltipView.m */,
+				1A39F7D11604A4B0000A9B8A /* InvalidTooltipView.h */,
+				1A39F7D21604A4B0000A9B8A /* InvalidTooltipView.m */,
+				1A39F7D31604A4B0000A9B8A /* TooltipView.h */,
+				1A39F7D41604A4B0000A9B8A /* TooltipView.m */,
+				1A39F7DA1604A4B0000A9B8A /* TooltipViewPrivate.h */,
+				1A39F7DB1604A4B0000A9B8A /* ValidTooltipView.h */,
+				1A39F7DC1604A4B0000A9B8A /* ValidTooltipView.m */,
 			);
 			name = ToolTipView;
 			sourceTree = "<group>";
@@ -167,14 +171,14 @@
 		1A8B91031602F782006BD82E /* ValidatorClasses */ = {
 			isa = PBXGroup;
 			children = (
-				1A87A62016043A3400B6B913 /* Rule.h */,
-				1A87A62116043A3400B6B913 /* Rule.m */,
-				1A87A62216043A3400B6B913 /* Rules.h */,
-				1A87A62316043A3400B6B913 /* Rules.m */,
-				1A87A62416043A3400B6B913 /* Validator.h */,
-				1A87A62516043A3400B6B913 /* Validator.m */,
-				1A87A62616043A3400B6B913 /* ValidatorRules.h */,
-				1A87A62716043A3400B6B913 /* ValidatorRules.m */,
+				1A39F7C41604A49F000A9B8A /* Rule.h */,
+				1A39F7C51604A49F000A9B8A /* Rule.m */,
+				1A39F7C61604A49F000A9B8A /* Rules.h */,
+				1A39F7C71604A49F000A9B8A /* Rules.m */,
+				1A39F7C81604A49F000A9B8A /* Validator.h */,
+				1A39F7C91604A49F000A9B8A /* Validator.m */,
+				1A39F7CA1604A49F000A9B8A /* ValidatorRules.h */,
+				1A39F7CB1604A49F000A9B8A /* ValidatorRules.m */,
 			);
 			name = ValidatorClasses;
 			sourceTree = "<group>";
@@ -231,10 +235,10 @@
 			files = (
 				1A8B90D01602F696006BD82E /* InfoPlist.strings in Resources */,
 				1A8B91081602F8BD006BD82E /* ValidatorTestAppViewController.xib in Resources */,
-				1A87A63016043A4800B6B913 /* image_tooltip_invalid.png in Resources */,
-				1A87A63116043A4800B6B913 /* image_tooltip_invalid@2x.png in Resources */,
-				1A87A63216043A4800B6B913 /* image_tooltip_valid.png in Resources */,
-				1A87A63316043A4800B6B913 /* image_tooltip_valid@2x.png in Resources */,
+				1A39F7DF1604A4B0000A9B8A /* image_tooltip_invalid.png in Resources */,
+				1A39F7E01604A4B0000A9B8A /* image_tooltip_invalid@2x.png in Resources */,
+				1A39F7E11604A4B0000A9B8A /* image_tooltip_valid.png in Resources */,
+				1A39F7E21604A4B0000A9B8A /* image_tooltip_valid@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,13 +252,13 @@
 				1A8B90D21602F696006BD82E /* main.m in Sources */,
 				1A8B90D61602F696006BD82E /* ValidatorTestAppAppDelegate.m in Sources */,
 				1A8B90D91602F697006BD82E /* ValidatorTestAppViewController.m in Sources */,
-				1A87A62816043A3400B6B913 /* Rule.m in Sources */,
-				1A87A62916043A3400B6B913 /* Rules.m in Sources */,
-				1A87A62A16043A3400B6B913 /* Validator.m in Sources */,
-				1A87A62B16043A3400B6B913 /* ValidatorRules.m in Sources */,
-				1A87A63B16043A5300B6B913 /* InvalidTooltipView.m in Sources */,
-				1A87A63C16043A5300B6B913 /* TooltipView.m in Sources */,
-				1A87A63D16043A5300B6B913 /* ValidTooltipView.m in Sources */,
+				1A39F7CC1604A49F000A9B8A /* Rule.m in Sources */,
+				1A39F7CD1604A49F000A9B8A /* Rules.m in Sources */,
+				1A39F7CE1604A49F000A9B8A /* Validator.m in Sources */,
+				1A39F7CF1604A49F000A9B8A /* ValidatorRules.m in Sources */,
+				1A39F7DD1604A4B0000A9B8A /* InvalidTooltipView.m in Sources */,
+				1A39F7DE1604A4B0000A9B8A /* TooltipView.m in Sources */,
+				1A39F7E31604A4B0000A9B8A /* ValidTooltipView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

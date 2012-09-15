@@ -17,6 +17,7 @@
 
 
 #import "Validator.h"
+#import "QuartzCore/QuartzCore.h"
 
 @interface Validator()
 
@@ -90,5 +91,6 @@
     
     return failedRule;
 }
+
 
 @end

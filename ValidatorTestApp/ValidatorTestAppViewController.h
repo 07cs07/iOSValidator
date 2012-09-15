@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "Validator.h"
 #import "TooltipView.h"
+#import "QuartzCore/QuartzCore.h"
+
 @interface ValidatorTestAppViewController : UIViewController<UITextFieldDelegate,ValidatorDelegate>{
     UIBarButtonItem *extraSpace;
     UIBarButtonItem *done;
