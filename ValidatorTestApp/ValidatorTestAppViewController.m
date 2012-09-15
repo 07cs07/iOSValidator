@@ -161,10 +161,12 @@
         _tooltipView  = nil;
     }
     [[[UIAlertView alloc] initWithTitle:@"Alert" message:@"Success" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil] show];
+    NSLog(@"Success");
 }
 
 - (void)onFailure:(Rule *)failedRule
 {
+    NSLog(@"Failed");
     failedRule.textField.layer.borderColor   = [[UIColor redColor] CGColor];
     failedRule.textField.layer.cornerRadius  = 5;    
     failedRule.textField.layer.borderWidth   = 2;

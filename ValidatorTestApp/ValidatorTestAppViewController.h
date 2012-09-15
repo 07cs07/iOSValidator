@@ -12,9 +12,9 @@
 #import "QuartzCore/QuartzCore.h"
 
 @interface ValidatorTestAppViewController : UIViewController<UITextFieldDelegate,ValidatorDelegate>{
+    
     UIBarButtonItem *extraSpace;
     UIBarButtonItem *done;
-    
     TooltipView    *_tooltipView;
 }
 @property (retain, nonatomic) IBOutlet UITextField *textField1;
