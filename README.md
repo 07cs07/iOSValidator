@@ -1,5 +1,5 @@
-![iOSValidator framework screen](https://github.com/07cs07/iOSValidator/blob/master/ScreenShot.png)
-iOSValidator
+![iOSValidator framework screen](https://raw.github.com/07cs07/iOSValidator/master/ScreenShot.png)
+iOSValidator 
 ============
 
 UITextField Validator for iOS
